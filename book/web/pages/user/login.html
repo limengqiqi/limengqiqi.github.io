@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生管理系统登录页面</title>
+<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+</head>
+<body>
+		<div id="login_header">
+			<img class="logo_img" alt="" src="../../static/img/logo.gif" >
+		</div>
+		
+			<div class="login_banner">
+			
+				<div id="l_content">
+					<span class="login_word">欢迎登录</span>
+				</div>
+				
+				<div id="content">
+					<div class="login_form">
+						<div class="login_box">
+							<div class="tit">
+								<h1>郑州经贸学院</h1>
+								<a href="regist.html" id="tit-text">立即注册</a>
+							</div>
+<!--							<div class="msg_cont">-->
+<!--								<b></b>-->
+<!--								<span class="errorMsg">请输入用户名和密码</span>-->
+<!--							</div>-->
+							<div class="form">
+								<form action="login_success.html">
+									<div >
+										<label>请选择你的身份：</label>
+										<select name="itxt" style="width: 183px; height: 40px;border: 1px #e3e3e3 solid;">
+											<option value="student">学生</option>
+											<option value="teacher">教师</option>
+											<option value="admin">管理人员</option>
+										</select>
+									</div>
+									<label>用户名称：</label>
+									<input class="itxt" type="text" placeholder="请输入用户名" autocomplete="off" tabindex="1" name="username" />
+									<br />
+									<br />
+									<label>用户密码：</label>
+									<input class="itxt" type="password" placeholder="请输入密码" autocomplete="off" tabindex="1" name="password" />
+									<br />
+									<br />
+									<input type="submit" value="登录" id="sub_btn" />
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		<div id="bottom">
+			<span>
+				郑州经贸学院
+			</span>
+		</div>
+</body>
+</html>
